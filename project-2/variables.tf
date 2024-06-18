@@ -1,7 +1,7 @@
 # variables.tf
 variable "region" {
   type    = string
-  default = "ap-south-1"
+  default = "us=east-2"
 }
 
 variable "prefix" {
@@ -13,7 +13,7 @@ variable "project" {
 }
 
 variable "contact" {
-  default = "akhileshmishra@gmail.com"
+  default = "tonboazz2003@yahoo.com"
 }
 
 variable "vpc_cidr" {
