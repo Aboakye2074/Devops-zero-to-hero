@@ -1,2 +1,2 @@
 # terraform.tfvars
-keyPath = "/Users/akhileshmishra3/Downloads/ssh-key.pem"
+keyPath = "C:\Users\tonbo\Downloads\tony-key.pem"
