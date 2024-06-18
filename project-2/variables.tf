@@ -32,5 +32,5 @@ variable "instance_type" {
 
 variable "keyPath" {
   type    = string
-  default = ""
+  default = "D:\tony-key.pem"
 }
