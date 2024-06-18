@@ -5,7 +5,7 @@ resource "aws_instance" "bastion" {
   instance_type          = var.instance_type
   subnet_id              = aws_subnet.public.id
   vpc_security_group_ids = [aws_security_group.bastion-ssh.id, ]
-  key_name               = "ssh-key"
+  key_name               = "tony-key"
   iam_instance_profile   = aws_iam_instance_profile.bastion_profile.name
   availability_zone      = "${data.aws_region.current.name}a"
 
