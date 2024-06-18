@@ -5,7 +5,7 @@ resource "aws_instance" "private" {
   subnet_id              = aws_subnet.private.id
   availability_zone      = "${data.aws_region.current.name}a"
   vpc_security_group_ids = [aws_security_group.ssh.id, ]
-  key_name               = "ssh-key"
+  key_name               = "tony-key"
   tags = merge(
     local.common_tags,
     tomap({ "Name" = "${local.prefix}-private-ec2" })
